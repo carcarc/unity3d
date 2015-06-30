@@ -10,3 +10,13 @@ void OnTriggerEnter (Collider other)
         playerInRange = true;
     }
 }
+
+void OnTriggerExit (Collider other)
+{
+    // If the exiting collider is the player...
+    if(other.gameObject == player)
+    {
+        // ... the player is no longer in range.
+        playerInRange = false;
+    }
+}
