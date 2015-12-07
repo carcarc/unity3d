@@ -34,10 +34,10 @@ public class RoadGeneration : MonoBehaviour {
    if(firstRand == 3){
      secondRand = Random.Range (1,8);
      for(int i= 0;i < secondRand;i++){
-      intPos = new Vector3(0,-0.2F,distPlayer);
+      intPos = new Vector3(0,0,distPlayer);
       distPlayer +=1;
-      GameObject GrassIns = Instantiate (Grass) as GameObject;
-      GrassIns.transform.position = intPos;
+      GameObject WaterIns = Instantiate (Water) as GameObject;
+      WaterIns.transform.position = intPos;
      }
    }
   }
