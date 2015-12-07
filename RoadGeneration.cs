@@ -5,7 +5,7 @@ public class RoadGeneration : MonoBehaviour {
 
  int firstRand;
  int secondRand;
- int distPlayer = 12;
+ int distPlayer = 12; //the starting position to add the ground
  
  Vector3 intPos = new Vector3(0,0,0);
  
