@@ -1,5 +1,5 @@
 public class RoadGeneration : MonoBehaviour {
- public GameObject Water;
+ public GameObject Water; //link to the 3d object
  public GameObject Road;
  public GameObject Grass;
 
