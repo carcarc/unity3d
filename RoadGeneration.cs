@@ -12,9 +12,11 @@ public class RoadGeneration : MonoBehaviour {
  void Update () {
   if (Input.GetButtonDown ("up")){
    
+   //Random Grass, Road or Water
    firstRand = Random.Range(1,4);
 
    if(firstRand == 1){
+    //Duplicate this type ground Randomly
     secondRand = Random.Range (1,8);
     for(int i = 0;i < secondRand;i++)
      intPos = new Vector3(0,0,distPlayer);
