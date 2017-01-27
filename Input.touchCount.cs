@@ -1,4 +1,5 @@
 //http://docs.unity3d.com/460/Documentation/ScriptReference/Input-touchCount.html
+//multi-touch
 public class click : MonoBehaviour {
   public Texture2D img;
   
