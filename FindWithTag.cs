@@ -1,3 +1,4 @@
+//use other class's function
 private AnyClass anyGameClass;
 
 void Start(){
