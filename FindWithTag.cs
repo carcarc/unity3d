@@ -1,4 +1,7 @@
-//FindWithTag
+private Generate gameGenerate;
+
+void Start(){
+  //FindWithTag
   GameObject gameControllerObject = GameObject.FindWithTag("GameController");
   if (gameControllerObject != null)
   {
@@ -8,3 +11,4 @@
   {
       Debug.Log("Cannot find 'GameController' script");
   }
+}
