@@ -6,9 +6,9 @@ void Start(){
   GameObject gameControllerObject = GameObject.FindWithTag("GameController");
   if (gameControllerObject != null)
   {
-      gameGenerate = gameControllerObject.GetComponent<AnyClass>();
+      anyGameClass = gameControllerObject.GetComponent<AnyClass>();
   }
-  if (gameGenerate == null)
+  if (anyGameClass == null)
   {
       Debug.Log("Cannot find 'GameController' script");
   }
