@@ -1,3 +1,4 @@
+//Collider 2D is Trigger clicked
 bool playerInRange;
 GameObject player = GameObject.FindGameObjectWithTag ("Player");
 
