@@ -1,13 +1,13 @@
 void Start () {
-        Debug.Log("start1");
-        StartCoroutine(Test());
-        Debug.Log("start2");
+	Debug.Log("start1");
+	StartCoroutine(Test());
+	Debug.Log("start2");
 }
 
 IEnumerator Test(){
-        Debug.Log("test1");
-        yield return null;
-        Debug.Log("test2");
+	Debug.Log("test1");
+	yield return null;
+	Debug.Log("test2");
 }
 
 //Result
